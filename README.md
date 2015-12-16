@@ -3,6 +3,9 @@
 ## 目的
 给OSM分块，预处理出每个块之间的最短路，以及块与块之间的最短路，达到在线地图查询O(1)操作。细菌繁殖模拟过程用来作分块算法。
 
+### 估价函数
+f(G) = sigma size_i * log(log_i) + alpha * sigma outpoint_size
+
 
 
 ## map reduce 框架
